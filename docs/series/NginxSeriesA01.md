@@ -156,10 +156,10 @@ sudo firewall-cmd --list-services
 ## 📚 Further reading and Next Steps
 After successfully setting up Nginx, you can configure it to better suit your requirements and enhance its security features. Check out these in-depth resources to learn more:
 
-- Getting Started with Nginx ❯ [ Default Configuration Guide](NginxSeriesA02.html)
-- Getting Started with Nginx ❯ [How to Secure Your Nginx - Part 1]
+- Getting Started with Nginx ❯ [ Default Configuration Guide](NginxSeriesA02)
+- Getting Started with Nginx ❯ [How to Secure Your Nginx - Part 1](NginxSeriesA03P1)
 - Getting Started with Firewalld ❯ [A Beginner's Guide (Cheat-sheet)]
-- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with AppStream modules]
+- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with AppStream modules](SystemSeriesA01)
 
 ----    
    

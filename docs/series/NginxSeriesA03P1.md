@@ -1,13 +1,13 @@
 # AlmaLinux Nginx Series | Article 03P1
-#### Getting Started with Nginx: How to Secure Your Nginx -- Part 1++
+#### Getting Started with Nginx: <u>How to Secure Your Nginx -- Part 1</u>
 
 | 💡 | Experience Level  | ⭐⭐☆☆☆ |
 |--- | --------- | -------- |
-| 📆 | Last modified | 2023-05-04
+| 📆 | Last modified | 2023-05-09
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 | 
   
    
-## 1. 🌟 Introduction
+## 1. Introduction
 As Nginx is a high-performance web server commonly used in public environments it makes it a prime target for malicious attacks. To enhance the security of your Nginx server and protect your web content, it's important to secure your system. This guide presents a few simple steps you can take to secure your Nginx server and help prevent unauthorized access.
 
 ## 2. 🧠 Fundamental Concepts
@@ -84,7 +84,7 @@ To install Let's Encrypt on AlmaLinux 9.x, run the following command:
 sudo dnf install certbot python3-certbot-nginx
 ```
 
-:::info
+::: tip
 The `python3-certbot-nginx` package is from EPEL repository, so if you get error to the above, just do:
 ```
 dnf install epel-release
@@ -140,7 +140,7 @@ fips-mode-setup --enable
 * Reboot the system!
 :::
 
-:::info
+::: tip
 After successful configuration, '/etc/nginx/nginx.conf' will contain these new lines:
 
 ```
@@ -174,7 +174,7 @@ After successful configuration, '/etc/nginx/nginx.conf' will contain these new l
 
 If you want to restrict access to your Nginx server, you can implement user authentication using the `htpasswd` tool.
 
-:::info
+::: tip
 `htpasswd` manages user accounts and passwords for accessing restricted areas of your website, helping to add basic authentication to your Nginx server and control access to specific areas of your site.
 :::
 
@@ -303,8 +303,8 @@ then try loading the directory again.
 
 If this resolves the issue, you will need to adjust the context of the directory to allow Nginx access or use `audit2allow` to identify a SELinux boolean that can be changed.
 
-  :::info
-  audit2allow - generate SELinux policy allow/dontaudit rules from logs of denied operations
+  :::tip
+  `audit2allow` - generate SELinux policy allow/dontaudit rules from logs of denied operations
   :::
 
 3. **Fix the SELinux issue**
@@ -328,8 +328,8 @@ sudo setenforce 1
 
 ## 📚 Further reading and Next Steps
 
-**++In-depth Resources:++**
-▰ Getting Started with Nginx: ++How to Secure Your Nginx -- Part 2++ (WIP)
+**<u>In-depth Resources:</u>**
+- Getting Started with Nginx: How to Secure Your Nginx - Part 2 (WIP)
 
-**++Get Back:++**
-▰ AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](https://hackmd.io/@almalinux/ryhQeOapo)
+**<u>Get Back:<u>**
+AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
