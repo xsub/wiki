@@ -238,7 +238,9 @@ This configuration will limit requests to one request per second per IP address,
 
 Note: both can be added to `http` block.
 
-#### For more info on rate limitting please read **[ a dedicated blog post Nginx.org ]( https://www.nginx.com/blog/rate-limiting-nginx/)**
+:::details
+ For more info on rate limitting please read **[ a dedicated blog post Nginx.org ]( https://www.nginx.com/blog/rate-limiting-nginx/)**
+:::
 
 ### Step 5: Disable Server Tokens
 
@@ -331,5 +333,5 @@ sudo setenforce 1
 **<u>In-depth Resources:</u>**
 - Getting Started with Nginx: How to Secure Your Nginx - Part 2 (WIP)
 
-**<u>Get Back:<u>**
+**<u>Get Back:</u>**
 AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
