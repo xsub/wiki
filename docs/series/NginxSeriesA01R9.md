@@ -11,15 +11,15 @@
 This is a dedicated example for the **AlmaLinux 9.x series**, demonstrating how to install Nginx using one of the two variants: 
 
 - Variant I: AppStream non-module
-- Variant III^1^: Nginx mainline repository
+- Variant III¹: Nginx mainline repository
 
-<small>^1^ - Variant II omitted by purpose.</small>
+<small>¹ - Variant II omitted by purpose.</small>
 
 ## 📝 Installation instructions
 
-### ⚠️ System Updates First!
+###  System Updates First!
 
-:::info
+::: warning
 Please make sure to run **`sudo dnf update`** before proceeding with any other installation or configuration steps to ensure that your system is up-to-date and any known security vulnerabilities or bugs are patched.
 :::
 
@@ -31,9 +31,9 @@ Different Nginx server versions are available to install depending on the instal
 |-|------------------------|--------------------------|---------------|
 |🟩| AppStream non-module  | 1.20.1                   | Default version is good bu |
 |❌| AppStream module      | Not Available | AppStream module method is not available on 9.1. |
-|🟨| Nginx mainline repo   | 1.21.6 -- 1.23.4^1^ | You always get latest version of Nginx avaiable. Second good (small chance of incompatibilty). | 
+|🟨| Nginx mainline repo   | 1.21.6 -- 1.23.4¹ | You always get latest version of Nginx avaiable. Second good (small chance of incompatibilty). | 
  
-<small>^1^ current version at the time of testing.</small>
+¹ current version at the time of testing.
 
 <u>Architecture Compatibility</u>
 | Architecture | Supported |
@@ -226,10 +226,10 @@ nginx version: nginx/1.23.4
 ## 📚 Further reading and Next Steps
 
 **<u>In-depth Resources:</u>**
-- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with Appstream modules](https://hackmd.io/@almalinux/SyMhps8Mn)
+- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with Appstream modules](SystemSeriesA01)
 
 **<u>Get Back:</u>**
-- AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](https://hackmd.io/@almalinux/ryhQeOapo)
+- AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
 
 
 ----    

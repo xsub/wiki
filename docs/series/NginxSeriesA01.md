@@ -74,11 +74,11 @@ sudo firewall-cmd --reload
    <u>Compatibility Matrix</u>
    | Install Variant | 8.7 | 9.1|
    |---------------- | ----|----|
-   | I. AppStream non-module  |  ❗[^1] |  ✅ |
+   | I. AppStream non-module  |  ❗¹ |  ✅ |
    | II. AppStream module |  ✅ |  ❌ |
    | III. Mainline repo  |  ✅ |  ✅ | 
     
-  [^1]: On 8.7, this will actually install the AppStream module.
+  ¹ On 8.7, this will actually install the AppStream module.
 
 
 
@@ -104,11 +104,13 @@ sudo firewall-cmd --list-services
  lynx http://localhost/ 
  ```
  
- ::: tip
+ ::: details
  `lynx` is a text-based web browser for use on cursor-addressable character (cell) terminals. 
+
+  Install it with `dnf install lynx`.
  :::
  
- :::warning 
+ ::: tip 
  To exit `lynx` press `q` and then `y` to confirm.
  :::
 

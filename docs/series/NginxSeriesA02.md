@@ -4,7 +4,7 @@
 
 | 💡 | Experience Level  | ⭐⭐☆☆☆ |
 |--- | --------- | -------- |
-| 📆 | Last modified | 2023-04-25
+| 📆 | Last modified | 2023-05-09
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 
 | 
 
@@ -73,12 +73,12 @@ worker_connections 1024;
 sendfile on;
 ```
 
-- Improves performance by sending small data packets without delay^1^: 
+- Improves performance by sending small data packets without delay¹: 
 ```
 tcp_nopush on;
 ```
 
-- Improves performance by sending larger data packets without delay^2^:
+- Improves performance by sending larger data packets without delay²:
 ```
 tcp_nodelay on;
 ```
@@ -88,8 +88,9 @@ tcp_nodelay on;
 keepalive_timeout 65;
 ```
 
-^1^ - http://nginx.org/en/docs/http/ngx_http_core_module.html#tcp_nopush
-^2^ - http://nginx.org/en/docs/http/ngx_http_core_module.html#tcp_nodelay <br> ... https://en.wikipedia.org/wiki/Nagle%27s_algorithm
+¹ [Details of tcp_nopush option (nginx.org)](http://nginx.org/en/docs/http/ngx_http_core_module.html#tcp_nopush)<br>
+² [Details of tcp_nodelay option (nginx.org)](http://nginx.org/en/docs/http/ngx_http_core_module.html#tcp_nodelay)<br>
+  [About Neagle's algorithm (wikipedia.org)](https://en.wikipedia.org/wiki/Nagle%27s_algorithm)
 
 ### 📖 Deep dive on `worker_connections`
 
@@ -109,9 +110,8 @@ It’s important to find the right balance between the number of worker processe
 types_hash_max_size 4096; 
 ```
 
-:::info
-**TIP**
-ℹ️ The hash table allows for faster lookups of MIME types when processing requests for different files. A larger `types_hash_max_size` value will increase memory consumption but can improve performance for lookups in cases where there are a large number of MIME type.
+::: tip
+The hash table allows for faster lookups of MIME types when processing requests for different files. A larger `types_hash_max_size` value will increase memory consumption but can improve performance for lookups in cases where there are a large number of MIME type.
 :::
 
 - Included MIME types file:

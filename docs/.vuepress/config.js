@@ -17,19 +17,27 @@ module.exports = {
     sidebar: [
       '/',
       '/Contribute', 
-             {
-                title: 'Development',
-                path: '/development/',
-                children: [
-                  '/documentation/building-packages-guide',
-                  '/development/Packaging',
-                ]
-             },
-       {
-           title: 'Documentation',
-           path: '/documentation',
-            children: [
+     {
+        title: 'Development',
+        path: '/development/',
+        children: [
+          '/documentation/building-packages-guide',
+          '/development/Packaging',
+        ]
+     },
+     {
+        title: 'Documentation',
+        path: '/documentation',
+        children: [
+            '/documentation/errata',
+            '/development/Modified-packages',
+            '/Comparison',
             '/FAQ',
+            '/development/openQA',
+            {
+                title: 'Some External Howtos',
+                path: '/Howto',
+            },
             {
               title: 'General Guides',
                 path: '/documentation/guides',
@@ -46,7 +54,36 @@ module.exports = {
                   '/series/NginxSeriesA01',
                   '/series/NginxSeriesA01R8',
                   '/series/NginxSeriesA01R9',
-                  '/series/NginxSeriesA02'
+                  '/series/NginxSeriesA02',
+                  '/series/NginxSeriesA03P1',
+                  '/series/SystemSeriesA01',
+                ]
+            },
+            {
+                title: 'Release Notes',
+                path: '/release-notes/',
+                children: [
+                  '/release-notes/9.1',
+                  '/release-notes/8.7',
+                  '/release-notes/9.2-beta',
+                  '/release-notes/8.8-beta',
+                  '/release-notes/9.0',
+                  '/release-notes/8.6',
+                  '/release-notes/9.1-beta',
+                  '/release-notes/8.7-beta',
+                  '/release-notes/9.0-beta',
+                  '/release-notes/8.6-beta',
+                  '/release-notes/8.5-ppc',
+                  '/release-notes/8.5',
+                  '/release-notes/8.5-beta-ppc',
+                  '/release-notes/8.5-beta',
+                  '/release-notes/8.4-arm',
+                  '/release-notes/8.4',
+                  '/release-notes/8.4-beta-arm',
+                  '/release-notes/8.4-beta',
+                  '/release-notes/8.3',
+                  '/release-notes/8.3-rc',
+                  '/release-notes/8.3-beta'
                 ]
             },
             {
@@ -59,11 +96,7 @@ module.exports = {
                   '/documentation/sbom-guide'
                 ]
             },
-            {
-                title: 'Some External Howtos',
-                path: '/Howto',
-            }
-          ]
+         ]
       },
       {
         title: 'Installation',
@@ -121,43 +154,6 @@ module.exports = {
                 '/elevate/ELevate-frequent-issues'
               ]
            },
-         ]
-      },
-      {
-          title: 'Technical',
-          path: '/technical',
-          children: [
-            '/documentation/errata',
-             '/development/Modified-packages',
-             '/Comparison',
-             '/development/openQA',
-             {
-                title: 'Release Notes',
-                path: '/release-notes/',
-                children: [
-                  '/release-notes/9.1',
-                  '/release-notes/8.7',
-                  '/release-notes/9.2-beta',
-                  '/release-notes/8.8-beta',
-                  '/release-notes/9.0',
-                  '/release-notes/8.6',
-                  '/release-notes/9.1-beta',
-                  '/release-notes/8.7-beta',
-                  '/release-notes/9.0-beta',
-                  '/release-notes/8.6-beta',
-                  '/release-notes/8.5-ppc',
-                  '/release-notes/8.5',
-                  '/release-notes/8.5-beta-ppc',
-                  '/release-notes/8.5-beta',
-                  '/release-notes/8.4-arm',
-                  '/release-notes/8.4',
-                  '/release-notes/8.4-beta-arm',
-                  '/release-notes/8.4-beta',
-                  '/release-notes/8.3',
-                  '/release-notes/8.3-rc',
-                  '/release-notes/8.3-beta'
-                ]
-             },
          ]
       },
       {

@@ -17,9 +17,9 @@ This is a dedicated example for the **AlmaLinux 8.x series**, demonstrating how 
 
 ## 📝 Installation instructions
 
-### ⚠️ System Updates First!
+### System Updates First!
 
-:::info
+::: warning
 Please make sure to run **`sudo dnf update`** before proceeding with any other installation or configuration steps to ensure that your system is up-to-date and any known security vulnerabilities or bugs are patched.
 :::
 
@@ -32,13 +32,13 @@ Different Nginx server versions are available to install depending on the instal
 |-|------------------------|--------------------------|---------------|
 |🟥| AppStream non-module  | 1.14                    | Default version is outdated and does not get updates! Inadvisable. |
 |🟩| AppStream module      | 1.14 -- 1.20 | Module version are getting the security updates. **The recommended method**.  |
-|🟨| Nginx mainline repo   | 1.15.2 -- 1.23.3^1^ | You always get latest version of Nginx avaiable. Second good (small chance of incompatibilty). | 
+|🟨| Nginx mainline repo   | 1.15.2 -- 1.23.3¹ | You always get latest version of Nginx avaiable. Second good (small chance of incompatibilty). | 
  
-^1^ current version at the time of testing (1.23.4 already available at Nginx.org)
+¹ current version at the time of testing (1.23.4 already available at Nginx.org)
 
 
 
-++Architecture Compatibility++
+<u>Architecture Compatibility</u>
 | Architecture | Supported |
 |-----|----|
 | Aarch64 | ✅ |
@@ -453,7 +453,9 @@ nginx version: nginx/1.20.1
 ```
 
 :::warning
-Note: If you switch between different versions of a module, you may need to reset its state using the command `dnf module reset <module-name>` to enable installing another version. In Nginx case `<module-name>` is `nginx`.
+Note: If you switch between different versions of a module, you may need to <u>reset its state</u> using the command `dnf module reset <module-name>` to enable installing another version. 
+
+In Nginx case `<module-name>` is `nginx`.
 :::
 
 
@@ -483,7 +485,7 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
 
-:::info
+::: tip 
 When editing the file, you can change `enabled=0` setting it to `1`. With that change you can skip next two steps (installing `dnf-utils` and running `dnf config-manager`).
 :::
 
@@ -494,17 +496,17 @@ When editing the file, you can change `enabled=0` setting it to `1`. With that c
 sudo dnf install dnf-utils
 ```
 
-Enable the newly add external repo from nginx.org:
+**Enable the newly add external repo from nginx.org:**
 ```
 sudo dnf config-manager --enable nginx-mainline
 ```
 
-Finally, install Nginx:
+**Finally, install Nginx:**
 ```
 sudo dnf install nginx
 ```
 
-➡️ Example output
+➡️ **Example output**
 
 With the official Nginx mainline repo enabled `dnf` allows to install the latest available: `1.23.3`.
 
@@ -572,11 +574,11 @@ nginx version: nginx/1.23.3
 
 ## 📚 Further reading and Next Steps
 
-**++In-depth Resources:++**
-- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with Appstream modules](https://hackmd.io/@almalinux/SyMhps8Mn)
+**<u>In-depth Resources:</u>**
+- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with Appstream modules](SystemSeriesA01)
 
-**++Get Back:++**
-- AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](https://hackmd.io/@almalinux/ryhQeOapo)
+**<u>Get Back:</u>**
+- AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
 
 ----   
 ##### Trademark noticies
