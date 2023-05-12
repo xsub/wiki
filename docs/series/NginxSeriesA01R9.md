@@ -7,7 +7,7 @@
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 | 
   
 
-# 🌟 Introduction
+## 🌟 Introduction
 This is a dedicated example for the **AlmaLinux 9.x series**, demonstrating how to install Nginx using one of the two variants: 
 
 - Variant I: AppStream non-module

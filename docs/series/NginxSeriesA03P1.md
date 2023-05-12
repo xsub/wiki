@@ -1,4 +1,4 @@
-# AlmaLinux Nginx Series | Article 03P1
+# AlmaLinux Nginx Series ❙ Article 03P1
 #### Getting Started with Nginx: <u>How to Secure Your Nginx - Part 1</u>
 
 | 💡 | Experience Level  | ⭐⭐☆☆☆ |
@@ -7,7 +7,7 @@
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 | 
   
    
-## 1. Introduction
+## 1. 🌟 Introduction
 As Nginx is a high-performance web server commonly used in public environments it makes it a prime target for malicious attacks. To enhance the security of your Nginx server and protect your web content, it's important to secure your system. This guide presents a few simple steps you can take to secure your Nginx server and help prevent unauthorized access.
 
 ## 2. 🧠 Fundamental Concepts
@@ -264,7 +264,7 @@ As with all the changes to the configuration file you need to reload the server 
 systemctl reload nginx
 ```
 
-## 4. FAQ
+## 4. 📖 FAQ
 
 #### Q: How to fix `Nginx: stat() failed (13: Permission denied)` with SELinux enabled?
 
