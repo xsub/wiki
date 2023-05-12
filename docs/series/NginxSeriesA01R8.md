@@ -1,5 +1,5 @@
-# Nginx Series ❙ Article 01R8 ❯ 
-Beginner's Guide ❯ <u>AlmaLinux 8.x Installation Examples</u> 
+# Beginner's Guide ❯ <u>AlmaLinux 8.x Installation Examples</u> 
+## AlmaLinux Nginx Series ❙ Article 01R8 ❯ 
 
 
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
@@ -588,13 +588,4 @@ nginx version: nginx/1.23.3
 **<u>Get Back:</u>**
 - AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
 
-----   
-##### Trademark noticies
-:::warning
-**Linux®** is the registered trademark of Linus Torvalds in the U.S. and other countries.
-
-**macOS** are trademarks of Apple Inc., registered in the U.S. and other countries.
-
-**Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
-:::
 

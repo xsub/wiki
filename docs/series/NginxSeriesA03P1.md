@@ -7,10 +7,10 @@
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 | 
   
    
-## 1. 🌟 Introduction
+## 🌟 Introduction
 As Nginx is a high-performance web server commonly used in public environments it makes it a prime target for malicious attacks. To enhance the security of your Nginx server and protect your web content, it's important to secure your system. This guide presents a few simple steps you can take to secure your Nginx server and help prevent unauthorized access.
 
-## 2. 🧠 Fundamental Concepts
+## 🧠 Fundamental Concepts
 
 ### General Protection
 
@@ -55,7 +55,7 @@ Monitoring your Nginx server logs can help you detect and respond to security in
 
 
 
-## 3. 📝 Key Takeaways
+## 📝 Key Takeaways
 
 
 ### Step 1: Check The Firewalld Configuration
@@ -264,7 +264,7 @@ As with all the changes to the configuration file you need to reload the server 
 systemctl reload nginx
 ```
 
-## 4. 📖 FAQ
+## 📖 FAQ
 
 #### Q: How to fix `Nginx: stat() failed (13: Permission denied)` with SELinux enabled?
 

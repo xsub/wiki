@@ -345,23 +345,3 @@ mysql-proxy     6446/udp                # MySQL Proxy
 **<u>Get Back:</u>**
 - AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
 
-
-
-----    
-    
-
-----    
-    
-##### Trademark noticies
-:::warning
-**Linux®** is the registered trademark of Linus Torvalds in the U.S. and other countries.
-
-**Bonjour** are trademarks of Apple Inc., registered in the U.S. and other countries.
-
-**Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
-:::
-
-:::
-
-
-

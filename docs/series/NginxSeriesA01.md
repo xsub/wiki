@@ -161,13 +161,3 @@ After successfully setting up Nginx, you can configure it to better suit your re
 - AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)
 - AlmaLinux System Series ❯ [Application Streams](SystemSeriesA01)
 
-----    
-   
-##### Trademark notices
-:::warning
-**Linux®** is the registered trademark of Linus Torvalds in the U.S. and other countries.
-
-**macOS** are trademarks of Apple Inc., registered in the U.S. and other countries.
-
-**Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
-:::

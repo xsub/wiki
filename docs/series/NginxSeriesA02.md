@@ -8,9 +8,9 @@
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 
 | 
 
-## 1. 🌟 Intoduction
+## 🌟 Intoduction
 By understanding each line in the default configuration, you can modify the settings to better suit your needs. Be sure to carefully review any changes you make to the configuration and test them before deploying in a production environment. This will help ensure that your Nginx server on AlmaLinux is properly configured and running optimally.
-## 2. 🧠 Fundamental Concepts
+## 🧠 Fundamental Concepts
 
 ### Nginx Configuration File Structure
 
@@ -36,7 +36,7 @@ Nginx provides a variety of built-in variables that can be used within the confi
 
 Nginx provides directives for creating rewrite and redirect rules, such as `rewrite`, `return`, and `error_page`. These rules can be used to manipulate incoming URLs and redirect clients to different resources based on specific conditions.
 
-## 3. 📝 Key take aways
+## 📝 Key take aways
 
 ### ➡️ Basic Configuration
 
@@ -259,7 +259,7 @@ The `ssl_ciphers` directive in Nginx is used to specify the list of available ci
 Using `PROFILE=SYSTEM` can be useful when you want to rely on the system-wide cipher configuration rather than specifying a custom list of ciphers in your Nginx configuration. This approach can simplify your Nginx configuration and ensure that your server uses the recommended ciphers for your system.
 
 
-## 4. 📚 Further reading and Next Steps
+## 📚 Further reading and Next Steps
   
 **<u>Get Back:</u>**
 - AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01.html)
