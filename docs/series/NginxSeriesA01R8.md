@@ -1,5 +1,5 @@
-# AlmaLinux Nginx Series ❙ Article 01-R8
-#### Getting Started with Nginx: A Beginner's Guide ❯ ++AlmaLinux 8.x Installation Examples++
+# Nginx Series ❙ Article 01R8 ❯ 
+Beginner's Guide ❯ <u>AlmaLinux 8.x Installation Examples</u> 
 
 
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
@@ -51,14 +51,14 @@ Different Nginx server versions are available to install depending on the instal
 
 There is no Nginx AppStream non-module package on AlmaLinux 8.x series, but there is an Appstream module one. For that reason, `dnf` will offer you to install Nginx as module (version **1:1.14**) and accompanying elements of its Application Stream, by default.
 
-#### Example
+### ➡️  Install
 
-➡️ **Install**
+**Command:**
 ```
 sudo dnf install nginx
 ```
 
-➡️ Example output
+Example output:
 ```
 Last metadata expiration check: 8:40:11 ago on Thu 13 Apr 2023 09:34:17 PM EDT.
 Dependencies resolved.
@@ -380,12 +380,13 @@ Installed:
 
 Complete!
 ```
-➡️ **Test**
+
+### ➡️  Test installation
 ```
 nginx -v
 ```
 
-➡️ Expected output
+Expected output:
 ```
 nginx version: nginx/1.14.1
 ```
@@ -395,15 +396,16 @@ nginx version: nginx/1.14.1
 
 To install the latest module version of Nginx on AlmaLinux (8.7 in the example below) you can list available module versions (streams) and then install ("enable" for modules) selected version.
 
-#### Example
 
-➡️ **Pre-Install**: list versions
+### ➡️  Pre-Install: list versions
+
+**Command:**
 
 ```
 sudo dnf module list nginx
 ```
 
-➡️ Example output (pre-install)
+Example output (pre-install):
 ```
 AlmaLinux 8 - AppStream                                                                         5.0 kB/s | 4.1 kB     00:00    
 AlmaLinux 8 - AppStream                                                                         6.3 MB/s |  12 MB     00:01    
@@ -421,11 +423,15 @@ nginx                      1.20 [x]                         common [d]          
 
 Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 ```
-➡️ **Install**: enable the selected module version
+
+### ➡️  Install: enable the selected module version
+
+**Command:**
+
 ```
 sudo dnf module enable nginx:1.20
 ```
-➡️ Example output (install)
+Example output (install):
 ```
 Last metadata expiration check: 0:00:44 ago on Thu 13 Apr 2023 09:06:58 PM EDT.
 Dependencies resolved.
@@ -442,12 +448,13 @@ Is this ok [y/N]: y
 Complete!
 ```
 
-➡️ **Test**
+### ➡️  Test installation
+**Command:**
 ```
 nginx -v
 ```
 
-➡️ Expected output (test)
+Expected output (test)
 ```
 nginx version: nginx/1.20.1  
 ```
@@ -464,17 +471,18 @@ In Nginx case `<module-name>` is `nginx`.
 
 To install the latest RPM package of Nginx on AlmaLinux (8.7 in example below) from the official Nginx repository (https://nginx.org), you can follow these steps:
 
-#### ▱ Example
 
-➡️ **Import the Nginx signing key**
+### ➡️  Add the repository 
+
+**Import the Nginx signing key**
 ```
 sudo rpm --import https://nginx.org/keys/nginx_signing.key
 ```
-➡️ **Create a new Nginx repository file in the /etc/yum.repos.d/ directory with editor of choice**
+**Create a new Nginx repository file in the /etc/yum.repos.d/ directory with editor of choice**
 ```
 sudo tee /etc/yum.repos.d/nginx.repo
 ```
-➡️ **Populate the new repo file with below text (copy-paste & press `Ctrl+D`)**
+** Populate the new repo file with below text (copy-paste & press `Ctrl+D`)**
 ```
 [nginx-mainline]
 name=nginx mainline repo
@@ -490,7 +498,7 @@ When editing the file, you can change `enabled=0` setting it to `1`. With that c
 :::
 
 
-➡️ **Install `dnf-uils`**
+### ➡️  Install `dnf-uils`
 
 ```
 sudo dnf install dnf-utils
@@ -506,7 +514,7 @@ sudo dnf config-manager --enable nginx-mainline
 sudo dnf install nginx
 ```
 
-➡️ **Example output**
+Example output:
 
 With the official Nginx mainline repo enabled `dnf` allows to install the latest available: `1.23.3`.
 

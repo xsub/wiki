@@ -1,5 +1,5 @@
 # AlmaLinux System Series ❙ Article 01
-#### Getting Started with AppStream modules: <u>A Beginner's Guide</u>
+#### <u>Application Streams</u>
 
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | -------- |
@@ -7,12 +7,12 @@
 | 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1\|x86_64\|2023-04-21 | 
   
 
-## 1. 🌟 Introduction
+## 🌟 Introduction
 
 This guide will introduce the fundamental concepts of AppStream modules and demonstrate their usage in an AlmaLinux environment. With the introduction of Application Streams in Red Hat® Enterprise Linux 8, user-space components can be delivered and updated more frequently than the core operating system packages. This feature enables greater customization of your AlmaLinux installation without compromising the platform's underlying stability or specific deployments.
  
 
-## 2. 🧠 Fundamental Concepts
+## 🧠 Fundamental Concepts
 
 ### AppStream
 
@@ -22,7 +22,7 @@ The AppStream repository contains both modular and non-modular packages. Non-mod
 AppStream's modular design ensures the delivery of software packages as independent modules, each with its own release schedule and lifecycle. This approach facilitates the provision of new features and updates for applications without necessitating a complete operating system upgrade. By incorporating both modular and non-modular packages, AppStream provides users with a wide variety of software options while maintaining system stability, compatibility, and security.
 AppStream modules provide a cohesive and tested set of packages that work together and ensure that all necessary packages are installed and configured correctly.
 
-## 3. 📝 Key Takeaways
+## 📝 Key Takeaways
 
 To use AppStream modules in your AlmaLinux environment, you need to understand the following fundamental concepts:
 
@@ -31,9 +31,9 @@ To use AppStream modules in your AlmaLinux environment, you need to understand t
 - **Profiles**: A profile is a set of streams for a module. Each profile represents a specific use case or workload.
 
 
-## 4. 📖 Version Specific Examples
+## 📖 Version Specific Examples
 
-➡️ Version independent calling (here installing) syntax is:
+### ➡️  Version independent calling (here installing) syntax is:
 
 `sudo dnf module install nginx:<stream>/<profile>`
 
@@ -45,11 +45,11 @@ Below we show list of modules available for each (major) AlmaLinux release.
 :::
 ### 🔖 AlmaLinux 8.7
 
-➡️ **List modules**
+### ➡️  List modules
 ```
 dnf module list
 ```
-➡️ Expected output
+Expected output:
 ```
 Last metadata expiration check: 0:08:54 ago on Sun 16 Apr 2023 07:42:28 AM EDT.
 AlmaLinux 8 - AppStream
@@ -148,11 +148,11 @@ Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 
 ### 🔖 AlmaLinux 9.1
 
-➡️ **List modules**
+### ➡️  List modules
 ```
- dnf module list
+dnf module list
 ```
-➡️ Expected output
+Expected output:
 ```
 Last metadata expiration check: 13:03:40 ago on Sun 16 Apr 2023 12:31:58 AM CEST.
 AlmaLinux 9 - AppStream
@@ -165,25 +165,13 @@ ruby                          3.1                             common [d]        
 Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 ```
 
-## 5. 📚 Further Reading and Next Steps
+## 📚 Further Reading and Next Steps
 
 - For more information on Application Streams, see the official Red Hat documentation (registration required):
     
     **</u>In-depth Resources:</u>**
-    [Introduction of Application Streams (RHEL 8)](https://www.redhat.com/en/blog/introduction-appstreams-and-modules-red-hat-enterprise-linux )
-    [Application Streams Considerations (RHEL 9)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/considerations_in_adopting_rhel_9/ref_application-streams_considerations-in-adopting-rhel-9)
-
-----    
     
-##### Trademark noticies
-:::warning
-**Linux®** is the registered trademark of Linus Torvalds in the U.S. and other countries.
+    [Introduction of Application Streams (RHEL 8)](https://www.redhat.com/en/blog/introduction-appstreams-and-modules-red-hat-enterprise-linux)
+    <br>[Application Streams Considerations (RHEL 9)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/considerations_in_adopting_rhel_9/ref_application-streams_considerations-in-adopting-rhel-9)
 
-**Red Hat** is registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries. 
 
-**macOS** are trademarks of Apple Inc., registered in the U.S. and other countries.
-
-**Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
-
-All other trademarks are the property of their respective owners.
-:::

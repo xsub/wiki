@@ -65,6 +65,7 @@ module.exports = {
               '/series/NginxSeriesA02',
               '/series/NginxSeriesA03P1',
               '/series/SystemSeriesA01',
+              '/series/FirewalldSeriesA01',
             ]
           },
         ]
