@@ -338,8 +338,15 @@ sudo setenforce 1
 
 ## 📚 Further reading and Next Steps
 
-**<u>In-depth Resources:</u>**
-- Getting Started with Nginx: How to Secure Your Nginx - Part 2 (WIP)
+<u>Get Back:</u>
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](NginxSeriesA01)
 
-**<u>Get Back:</u>**
-AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
+<u>In-depth Resources:</u>
+- Getting Started with Nginx ❯ [AlmaLinux OS 8.x Installation](NginxSeriesA01R8)
+- Getting Started with Nginx ❯ [AlmaLinux OS 9.x Installation](NginxSeriesA01R9)
+- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA03P1)
+
+<u>Related Resources:</u>
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
+- AlmaLinux System Series ❯ [Application Streams](../system/SystemSeriesA01)
+

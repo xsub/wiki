@@ -168,12 +168,13 @@ Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 ```
 
 ## 📚 Further Reading and Next Steps
-
-- For more information on Application Streams, see the official Red Hat documentation (registration required):
     
-    **</u>In-depth Resources:</u>**
+<u>In-depth Resources:</u>
     
-    [Introduction of Application Streams (RHEL 8)](https://www.redhat.com/en/blog/introduction-appstreams-and-modules-red-hat-enterprise-linux)
-    <br>[Application Streams Considerations (RHEL 9)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/considerations_in_adopting_rhel_9/ref_application-streams_considerations-in-adopting-rhel-9)
+- [Introduction of Application Streams (RHEL 8)](https://www.redhat.com/en/blog/introduction-appstreams-and-modules-red-hat-enterprise-linux)
+- [Application Streams Considerations (RHEL 9)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/considerations_in_adopting_rhel_9/ref_application-streams_considerations-in-adopting-rhel-9)
 
+<u>Related Resources:</u>
+- AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)
 

@@ -148,7 +148,7 @@ sudo firewall-cmd --list-services
 
 ## 📖 Release-Specific Installation
 
-   For version-specific examples, please refer to the corresponding sub-pages:
+<u>AlmaLinux version-specific examples:</u>
    
    - Getting Started with Nginx ❯ **[AlmaLinux OS 8.x Installation Examples](NginxSeriesA01R8.html)**
    - Getting Started with Nginx ❯ **[AlmaLinux OS 9.x Installation Examples](NginxSeriesA01R9.html)**
@@ -157,10 +157,13 @@ sudo firewall-cmd --list-services
 
 ## 📚 Further reading and Next Steps
 
-**<u>In-depth Resources:</u>**
+<u>In-depth Resources:</u>
 
 - AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA02)
-- AlmaLinux Nginx Series ❯ [How to Secure Your Nginx p1](NginxSeriesA03P1)
-- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)
-- AlmaLinux System Series ❯ [Application Streams](SystemSeriesA01)
+- AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA03P1)
+
+
+<u>Related Resources:</u>
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](../system/FirewalldSeriesA01)
+- AlmaLinux System Series ❯ [Application Streams](../system/../system/SystemSeriesA01)
 
