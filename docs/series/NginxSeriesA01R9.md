@@ -1,11 +1,11 @@
-# AlmaLinux Nginx Series ❙ Article 01-R9
-#### Getting Started with Nginx: A Beginner's Guide ❯ <u>AlmaLinux 9.x Installation Examples</u>
-
+# A01 R9 ❯ AlmaLinux 9.x Installation
+<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
+<hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | -------- |
-| 📆 | Last modified | 2023-04-22
-| 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 | 
-  
+|--- | --------- | --------|
+| 📆 | <small>Last modified </small>| 2023-05-15
+| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
+<br> 
 
 ## 🌟 Introduction
 This is a dedicated example for the **AlmaLinux 9.x series**, demonstrating how to install Nginx using one of the two variants: 

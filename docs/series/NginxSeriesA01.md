@@ -1,9 +1,11 @@
-# AlmaLinux Nginx Series ❙ Article 01 ❯ <u>A Beginner's Guide</u>
+# A01 ❯ A Beginner's Guide
+<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
+<hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | -------- |
-| 📆 | Last modified | 2023-05-10
-| 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1\|x86_64\|2023-04-21 | 
-  
+|--- | --------- | --------|
+| 📆 | <small>Last modified </small>| 2023-05-10
+| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>| 
+<br>
 
 ## 🌟 Introduction
 
@@ -154,7 +156,8 @@ sudo firewall-cmd --list-services
 
 
 ## 📚 Further reading and Next Steps
-After successfully setting up Nginx, you can configure it to better suit your requirements and enhance its security features. Check out these in-depth resources to learn more:
+
+**<u>In-depth Resources:</u>**
 
 - AlmaLinux Nginx Series ❯ [Default Configuration Guide](NginxSeriesA02)
 - AlmaLinux Nginx Series ❯ [How to Secure Your Nginx p1](NginxSeriesA03P1)

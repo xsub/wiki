@@ -1,12 +1,14 @@
-# AlmaLinux Nginx Series ❙ Article 03P1
-#### Getting Started with Nginx: <u>How to Secure Your Nginx - Part 1</u>
 
-| 💡 | Experience Level  | ⭐⭐☆☆☆ |
-|--- | --------- | -------- |
-| 📆 | Last modified | 2023-05-09
-| 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br> ↳ 9.1\|x86_64\|2023-04-21 | 
-  
-   
+# A03 ❯ Secure Nginx Deployment
+<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
+<hr>
+| 💡 | Experience Level  | ⭐☆☆☆☆ |
+|--- | --------- | --------|
+| 📆 | <small>Last modified </small>| 2023-05-16
+| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
+<br> 
+
+
 ## 🌟 Introduction
 As Nginx is a high-performance web server commonly used in public environments it makes it a prime target for malicious attacks. To enhance the security of your Nginx server and protect your web content, it's important to secure your system. This guide presents a few simple steps you can take to secure your Nginx server and help prevent unauthorized access.
 
@@ -332,7 +334,6 @@ The first command tells SELinux that the `/usr/share/nginx/srv` directory contai
 ```
 sudo setenforce 1
 ```
-
 
 
 ## 📚 Further reading and Next Steps

@@ -1,12 +1,11 @@
-# Beginner's Guide ❯ <u>AlmaLinux 8.x Installation Examples</u> 
-## AlmaLinux Nginx Series ❙ Article 01R8 ❯ 
-
-
+# A01 R8 ❯ AlmaLinux 8.x Installation 
+<small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
+<hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | -------- |
-| 📆 | Last modified | 2023-04-22
-| 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1\|x86_64\|2023-04-21 | 
- 
+|--- | --------- | --------|
+| 📆 | <small>Last modified </small>| 2023-05-16
+| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
+<br> 
 
 ## 🌟 Introduction
 This is a dedicated example for the **AlmaLinux 8.x series**, demonstrating how to install Nginx using one of the three variants:
@@ -582,10 +581,14 @@ nginx version: nginx/1.23.3
 
 ## 📚 Further reading and Next Steps
 
-**<u>In-depth Resources:</u>**
-- AlmaLinux System Series ❙ Application Streams ❯ [Getting Started with Appstream modules](SystemSeriesA01)
-
 **<u>Get Back:</u>**
-- AlmaLinux Nginx Series ❙ Article 01 ❯ [Getting Started with Nginx: A Beginner's Guide](NginxSeriesA01)
+- AlmaLinux Nginx Series ❯ [A Begginer's Guide](NginxSeriesA01)
+
+**<u>In-depth Resources:</u>**
+- Getting Started with Nginx ❯ **[AlmaLinux OS 9.x Installation Examples](NginxSeriesA01R9.html)**
+- AlmaLinux Nginx Series ❯ [How to Secure Your Nginx p1](NginxSeriesA03P1)
+- AlmaLinux Firewalld Series ❯ [A Beginner's Guide](FirewalldSeriesA01)
+- AlmaLinux System Series ❯ [Application Streams](SystemSeriesA01)
+
 
 

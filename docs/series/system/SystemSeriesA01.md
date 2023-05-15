@@ -1,11 +1,13 @@
-# AlmaLinux System Series ❙ Article 01
-#### <u>Application Streams</u>
 
+# A01 ❯ Application Streams 
+<small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
+<hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
-|--- | --------- | -------- |
-| 📆 | Last modified | 2023-04-22
-| 🔧 |  Tested by <br> ↳ version\|platform\|date | [Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1\|x86_64\|2023-04-21 | 
-  
+|--- | --------- | --------|
+| 📆 | <small>Last modified </small>| 2023-05-16
+| 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| <small>[Pawel Suchanecki](mailto:psuchanecki@almalinux.org) <br>  ↳ 9.1 \| x86_64 \| 2023-04-21 </small>|
+<br> 
+
 
 ## 🌟 Introduction
 
