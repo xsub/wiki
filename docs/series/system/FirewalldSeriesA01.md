@@ -295,8 +295,7 @@ Table below lists common services and ports that can be used with the `firewall-
 | LDAP                 | Lightweight Directory Access Protocol | ldap           | TCP      | 389         |
 | NFS                  | Network File System                   | nfs            | TCP/UDP  | 2049        |
 | NTP                  | Network Time Protocol                 | ntp            | UDP      | 123         |
-| RDP                  | Remote Desktop Protocol               | rdp            | TCP      | -           |
-| RDPS                 | Secure RDP                            | rdps           | TCP      | -           |
+| RDP                  | Remote Desktop Protocol               | rdp            | TCP      | 3389        |
 | SMB                  | Server Message Block                  | smb            | TCP      | 445         |
 | VNC server           | Virtual Network Computing Server      | vnc-server     | TCP      | 5900        |
 | **Other Services**  |   | ICMP                | Internet Control Message Protocol     | icmp         | -        | -     |
