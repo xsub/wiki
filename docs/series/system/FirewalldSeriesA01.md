@@ -298,7 +298,7 @@ Table below lists common services and ports that can be used with the `firewall-
 | RDP                  | Remote Desktop Protocol               | rdp            | TCP      | 3389        |
 | SMB                  | Server Message Block                  | smb            | TCP      | 445         |
 | VNC server           | Virtual Network Computing Server      | vnc-server     | TCP      | 5900        |
-| **Other Services**  |   | ICMP                | Internet Control Message Protocol     | icmp         | -        | -     |
+| **Other Services**  |   
 | IMAPS               | Secure IMAP                           | imaps        | TCP      | 993   |
 | HTTPS Alternate     | HTTPS Alternate                       | https-alt    | TCP      | 8443  |
 | LPD                 | Line Printer Daemon                   | lpd          | TCP      | 515   |
