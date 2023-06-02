@@ -52,7 +52,6 @@ There is no Nginx AppStream non-module package on AlmaLinux 8.x series, but ther
 
 ### ➡️  Install
 
-**Command:**
 ```
 sudo dnf install nginx
 ```
@@ -390,15 +389,12 @@ Expected output:
 nginx version: nginx/1.14.1
 ```
 
-
 ### 🔖 Variant II: AppStream Module Install
 
 To install the latest module version of Nginx on AlmaLinux (8.7 in the example below) you can list available module versions (streams) and then install ("enable" for modules) selected version.
 
 
 ### ➡️  Pre-Install: list versions
-
-**Command:**
 
 ```
 sudo dnf module list nginx
@@ -425,12 +421,11 @@ Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 
 ### ➡️  Install: enable the selected module version
 
-**Command:**
-
 ```
 sudo dnf module enable nginx:1.20
 ```
-Example output (install):
+
+Example output (module enable)):
 ```
 Last metadata expiration check: 0:00:44 ago on Thu 13 Apr 2023 09:06:58 PM EDT.
 Dependencies resolved.
@@ -447,8 +442,19 @@ Is this ok [y/N]: y
 Complete!
 ```
 
+### ➡️  Install: actual package installation
+
+```
+sudo dnf install nginx
+```
+
+Expected output (install):
+:::warning
+TODO: EXAMPLE IS MISSING!
+:::s
+
 ### ➡️  Test installation
-**Command:**
+
 ```
 nginx -v
 ```
@@ -466,7 +472,6 @@ In Nginx case `<module-name>` is `nginx`.
 
 
 ### 🔖 Variant III: Main-line Repository Install
-
 
 To install the latest RPM package of Nginx on AlmaLinux (8.7 in example below) from the official Nginx repository (https://nginx.org), you can follow these steps:
 
@@ -495,7 +500,6 @@ module_hotfixes=true
 ::: tip 
 When editing the file, you can change `enabled=0` setting it to `1`. With that change you can skip next two steps (installing `dnf-utils` and running `dnf config-manager`).
 :::
-
 
 ### ➡️  Install `dnf-uils`
 
@@ -571,10 +575,12 @@ Installed:
 Complete!
 ```
 
-➡️ **Test it**
+### ➡️  Test
 ```
 nginx -v
 ```
+
+Expected output (test):
 ```
 nginx version: nginx/1.23.3
 ```
@@ -586,6 +592,7 @@ nginx version: nginx/1.23.3
 
 <u>In-depth Resources:</u>
 - Getting Started with Nginx ❯ [AlmaLinux OS 9.x Installation](NginxSeriesA01R9)
+- Getting Started with Nginx ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA01R92)
 - AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA03P1)
 
 <u>Related Resources:</u>

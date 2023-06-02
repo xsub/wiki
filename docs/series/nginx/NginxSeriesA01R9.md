@@ -48,7 +48,7 @@ Different Nginx server versions are available to install depending on the instal
 
 #### Example
 
-➡️ **Install**
+### ➡️  Install
 ```
 sudo dnf install nginx
 ```
@@ -105,7 +105,7 @@ Complete!
 ```
 
 
-### 🔖Variant II: AppStream Module Install
+### 🔖 Variant II: AppStream Module Install
 
 This method is not available on AlmaLinux 9.1 (Lime Lynx) -- there is no AppStream module version of Nginx in RHEL repos.
 
@@ -113,16 +113,16 @@ This method is not available on AlmaLinux 9.1 (Lime Lynx) -- there is no AppStre
 
 #### Example
 
-➡️ **Import the Nginx signing key**
+### ➡️  Import the Nginx signing key
 ```
 sudo rpm --import https://nginx.org/keys/nginx_signing.key
 ```
 
-➡️ **Create a repo definition file for Nginx**
+### ➡️  Create a repo definition file for Nginx
 ```
 sudo tee /etc/yum.repos.d/nginx.repo
 ```
-➡️ **Populate the new repo file with below text (copy-paste & `Ctrl+D`)**
+### ➡️  Populate the new repo file with below text (copy-paste & `Ctrl+D`)
 ```
 [nginx-mainline]
 name=nginx mainline repo
@@ -133,7 +133,7 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
 
-➡️ **Install `dnf-uils`**
+### ➡️ Install `dnf-uils`
 
 :::warning
 ℹ️ `dnf-utils` are repo managment tools (classic YUM utilities implemented as CLI shims on top of DNF)
@@ -143,12 +143,12 @@ module_hotfixes=true
 sudo dnf install dnf-utils
 ```
 
-➡️ **Enable the repository** 
+### ➡️  Enable the repository
 ```
 dnf config-manager --enable nginx-mainline
 ```
 
-➡️ **Enable/install the module** 
+### ➡️  Enable/install the module
 ```
 sudo dnf install nginx
 ```
@@ -214,11 +214,12 @@ Installed:
 Complete!
 ```
 
-➡️ **Test it**
+### ➡️  Test
 ```
 nginx -v
 ```
-➡️ Expected output (test)
+
+Expected output (test):
 ```
 nginx version: nginx/1.23.4
 ```
@@ -230,6 +231,7 @@ nginx version: nginx/1.23.4
 
 <u>In-depth Resources:</u>
 - Getting Started with Nginx ❯ [AlmaLinux OS 8.x Installation](NginxSeriesA01R8)
+- Getting Started with Nginx ❯ [AlmaLinux OS 9.2 Installation](NginxSeriesA01R92)
 - AlmaLinux Nginx Series ❯ [Secure Nginx Deployment](NginxSeriesA03P1)
 
 <u>Related Resources:</u>
