@@ -6,7 +6,8 @@ Explore the articles below to get started:
 
 - System Series:
     - [A01](SystemSeriesA01.md) ❯ Application Streams
-    - [A02](SystemSeriesA02.md) ❯ Firewalld: A Beginner's Guide
+    - [A02](FirewalldSeries01.md) ❯ Firewalld: A Beginner's Guide
+    - [A03](SystemSeriesA01.md) ❯ NVIDIA Driver Installation Guide
 
 
 Stay tuned for more insightful guides in the System Series!

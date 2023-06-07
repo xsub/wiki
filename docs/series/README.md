@@ -22,6 +22,7 @@ Explore the articles in the System series:
 
 - [A01](system/SystemSeriesA01.md) ❯ Application Streams
 - [A02](system/SystemSeriesA02.md) ❯ Firewalld: A Beginner's Guide
+- [A03](system/SystemSeriesA02.md) ❯ NVIDIA Driver Installation Guide
 
 Dive into our HowTo series and unlock the full potential of AlmaLinux. Happy learning! 🎓🐧
 
@@ -34,9 +35,11 @@ Dive into our HowTo series and unlock the full potential of AlmaLinux. Happy lea
 
 **Linux®** is a registered trademark of Linus Torvalds in the U.S. and other countries.
 
-**Red Hat** is registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries.
-
 **macOS** are trademarks of Apple Inc., registered in the U.S. and other countries.
+
+**NVIDIA** is a registered trademark of NVIDIA Corporation in the U.S. and other countries.
+
+**Red Hat** is registered trademark of Red Hat, Inc. or its subsidiaries in the United States and other countries.
 
 **Windows** is a registered trademark of Microsoft Corporation in the United States and other countries.
 
