@@ -80,6 +80,7 @@ module.exports = {
                             '/series/system/SystemSeriesA03',
                             '/series/system/SystemSeriesA03R8',
                             '/series/system/SystemSeriesA03R9',
+                            '/series/system/SystemSeriesA04',
                     ]
                 }
             ]
