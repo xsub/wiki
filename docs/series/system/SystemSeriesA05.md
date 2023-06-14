@@ -3,7 +3,7 @@
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-06-07
+| 📆 | <small>Last modified </small>| 2023-06-14
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
 <br> 
 
@@ -21,7 +21,7 @@ sudo dnf install httpd mod_authn_dbd mod_dbd mysql
 
 ## 2. Enable the Modules
 
-Next, enable the mod_authn_dbd and mod_dbd modules. You can do this by adding or uncommenting the following lines in your Apache configuration file (/etc/httpd/conf/httpd.conf):
+Next, enable the `mod_authn_dbd` and `mod_dbd` modules. You can do this by adding or uncommenting the following lines in your Apache configuration file (`/etc/httpd/conf/httpd.conf`):
 
 ```shell
 LoadModule authn_dbd_module modules/mod_authn_dbd.so
