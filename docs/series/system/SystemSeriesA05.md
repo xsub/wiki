@@ -281,4 +281,38 @@ $conn->close();
 ?>
 ```
 
-Again, replace 'username', 'password', and 'myDB' with your MySQL username,
+Again, replace 'username', 'password', and 'myDB' with your MySQL username, password, and database name. `Users` should be replaced with the name of your table storing the user credentials.
+
+This PHP code will verify the entered password against the hashed version in your database. If the `password_verify` function returns `true`, then the password is correct, and the user is authenticated.
+
+
+### 4. Securing Your Apache Directories
+
+This part of the guide illustrates how you could handle password hashing on the application side, given that Apache's `mod_authn_dbd` module doesn't support hashed passwords. The exact details will depend on your specific programming language, framework, and database system.
+
+Remember that the Apache `mod_authn_dbd` module doesn't support hashed passwords, so you won't be able to use it to protect directories based on the user credentials in your database.
+
+Instead, you should implement access control in your PHP application. For example, you could start a session for authenticated users and check the session status before serving protected content.
+
+Here's a simple example:
+
+```php
+<?php
+session_start();
+
+// User is not logged in, redirect them to the login page
+if (!isset($_SESSION['username'])) {
+  header("Location: login.php");
+  exit;
+}
+
+// User is logged in, display the protected content
+echo "Welcome to the protected page!";
+?>
+```
+
+Remember to call `session_start` at the beginning of every script where you want to access or manipulate the session, and use `$_SESSION['username'] = $username;` to store the authenticated user's username in the session when they log in.
+
+### Final note on security
+Note: This is a simplified example for illustrative purposes. In a real-world application, you'd need to consider additional security measures, such as protecting against SQL injection attacks, securing your PHP session, using HTTPS, and more.
+
