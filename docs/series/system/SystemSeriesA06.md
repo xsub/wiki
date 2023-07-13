@@ -3,9 +3,8 @@
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
 |--- | --------- | --------|
-| 📆 | <small>Last modified </small>| 2023-06-14
+| 📆 | <small>Last modified </small>| 2023-06-22
 | 🔧 | <small>Tested by <br> ↳ version \| platform \| date </small>| NOT TESTED YET |
-
 
 
 # Enable CRB:
@@ -22,9 +21,7 @@ sudo dnf makecache
 # Add RPMFusion:
 ```Bash
 sudo dnf -y install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-$(rpm -E %rhel).noarch.rpm
-
 sudo dnf -y install rpmfusion-free-release-tainted rpmfusion-nonfree-release-tainted
-
 sudo dnf makecache
 ```
 
