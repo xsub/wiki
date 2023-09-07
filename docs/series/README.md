@@ -10,7 +10,8 @@ Browse the articles in the Nginx series:
 
 - [A01](nginx/NginxSeriesA01.md) ❯ Beginner's Guide
 - [A01 R8](nginx/NginxSeriesA01R8.md) ❯ AlmaLinux 8.x Installation Examples
-- [A01 R9](nginx/NginxSeriesA01R9.md) ❯ AlmaLinux 9.x Installation Examples
+- [A01 R9.1](nginx/NginxSeriesA01R91.md) ❯ AlmaLinux 9.1 Installation Examples
+- [A01 R9.2](nginx/NginxSeriesA01R92.md) ❯ AlmaLinux 9.2 Installation Examples
 - [A02](nginx/NginxSeriesA02.md) ❯ Default Configuration Guide
 - [A03](nginx/NginxSeriesA03P1.md) ❯ Secure Nginx Deployment
 

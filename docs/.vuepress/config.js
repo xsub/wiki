@@ -16,6 +16,10 @@ module.exports = {
     sidebar: [
       '/',
       {
+          title: 'AlmaLinux Release x Driver Compatibility',
+          path: '/dct/'
+      },
+      {
         title: 'Release Notes',
         path: '/release-notes/',
         children: [

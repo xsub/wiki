@@ -340,7 +340,7 @@ mysql-proxy     6446/udp                # MySQL Proxy
 ## 📚 Further Reading and Next Steps
 
 <u>In-depth Resources:</u>
-- Firewalld Series ❯ [Advanced Configuration Guide](#) 🚧 -- Work In Progress (5/15)
+- Firewalld Series ❯ [Advanced Configuration Guide](#) 🚧 -- Work In Progress (5/15) -- HELP NEEDED: psuchanecki@almalinux.org
 
 <u>Related Resources:</u>
 - AlmaLinux Nginx Series ❯ [A Beginner's Guide](../nginx/NginxSeriesA01)
