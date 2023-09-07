@@ -1,4 +1,4 @@
-# A03 R9 ❯ Installation on 9.x
+# A03 R9 ❯ NVIDIA: Installation on 9.x
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |

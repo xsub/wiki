@@ -1,4 +1,4 @@
-# A03 R8 ❯ Installation on 8.x
+# A03 R8 ❯ NVIDIA: Installation on 8.x
 <small>ℹ️ This article is part of AlmaLinux [System Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |
