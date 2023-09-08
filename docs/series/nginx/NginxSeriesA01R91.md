@@ -1,4 +1,4 @@
-# A01 R9 ❯ AlmaLinux 9.x Installation
+# A01 R91 ❯ AlmaLinux 9.1 Installation
 <small>ℹ️ This article is part of AlmaLinux [Nginx Series](/series/).</small>
 <hr>
 | 💡 | Experience Level  | ⭐☆☆☆☆ |

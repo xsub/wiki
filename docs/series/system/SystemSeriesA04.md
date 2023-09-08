@@ -13,14 +13,14 @@ AlmaLinux OS :penguin: is 1:1 binary compatible with RHEL® and pre-Stream CentO
 
 The snap packages for AlmaLinux can be found in the Extra Packages for Enterprise Linux 2 (EPEL) repository. :package:
 
-### Enable EPEL repo :minidisc:
+## Enable EPEL repo :minidisc:
 If you haven’t done it yet, enable the EPEL repository for your AlmaLinux system:
 ```
 sudo dnf install epel-release
 sudo dnf upgrade
 ```
 
-### Install :hammer_and_wrench:
+## Install :hammer_and_wrench:
 
 :::tip
 :information_source:
@@ -40,7 +40,7 @@ With the EPEL repository and kernel-modules added to your AlmaLinux installation
 sudo dnf install snapd
 ```
 
-### Set up :gear:
+## Set up :gear:
 
 Next, instruct systemd to enable the unit providing the snapd communication socket:
 

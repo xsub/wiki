@@ -69,7 +69,7 @@ module.exports = {
                     children: [
                             '/series/nginx/NginxSeriesA01',
                             '/series/nginx/NginxSeriesA01R8',
-                            '/series/nginx/NginxSeriesA01R9',
+                            '/series/nginx/NginxSeriesA01R91',
                             '/series/nginx/NginxSeriesA01R92',
                             '/series/nginx/NginxSeriesA02',
                             '/series/nginx/NginxSeriesA03P1',
